@@ -3,7 +3,7 @@ const dbConfig = {
 };
 
 if (process.env.NODE_ENV === 'production') {
-  dbConfig.url = `mongodb://${DB_USERNAME}:${DB_PASSWORD}@ds051833.mlab.com:51833/heroku_695qkfgd`;
+  dbConfig.url = `mongodb://${process.env.DB_USERNAME}:${process.env.DB_PASSWORD}@ds051833.mlab.com:51833/heroku_695qkfgd`;
 }
 
 exports.dbConfig = dbConfig;
