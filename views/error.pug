@@ -1,0 +1,25 @@
+extends layout
+
+block content
+  div
+    .plex-sans.container.shadow(style="max-width: 40rem; margin-top: 1rem; margin-bottom: 1rem; border-radius: 0.25em; overflow: hidden;")
+      .light-blue.lighten-4
+        .row(style="margin-bottom: 0")
+          .col.s12
+            .col.s12.blue-text.text-darken-2
+              h5(style="margin-bottom: 0") Browser Info
+              p(style="margin-top: 0.5rem").grey-text.text-darken-3 Hmmm, something isn't right.
+      .grey.lighten-3(style="border-top: 1px solid #fff;")
+        .row(style="margin-bottom: 0")
+          .col.s12
+            .col.s12
+              h4= message
+              p #{error}
+    
+    .container(style="max-width: 40rem;")
+      .row(style="margin-top: 0")
+        .col.s12
+          .col.s12.grey-text.text-lighten-1
+            p A thing by 
+              span.white-text Aaron Marr.
+  
