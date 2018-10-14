@@ -42,7 +42,7 @@ const store = new Vuex.Store({
   actions : {
     SAVE_REPORT: async (context, payload) => {
       let { data: { report, timestamp } } = await Axios.post(
-        'http://localhost:3000/api/v1/report',
+        '/api/v1/report',
         payload
       );
 
