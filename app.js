@@ -9,9 +9,6 @@ var indexRouter = require('./routes/index');
 var dbConfig = require('./config/db').dbConfig;
 var app = express();
 
-
-console.log('DB CONFIG', dbConfig);
-
 // Import the mongoose module
 
 // Set up default mongoose connection
