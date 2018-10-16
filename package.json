@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "babel-node": "babel-node --presets=env --inspect",
-    "start": "npm run build && npm start ./bin/www",
+    "start": "node ./bin/www",
     "dev": "watchify -vd -p browserify-hmr -t vueify -e public/javascripts/main.js -o public/javascripts/bundle.js & nodemon --exec npm run babel-node ./bin/www",
     "build": "browserify -t envify -t vueify -e public/javascripts/main.js -o public/javascripts/bundle.js"
   },
