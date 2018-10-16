@@ -8,3 +8,27 @@ body {
 a {
   color: #00B7FF;
 }
+
+.wrap {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 100%;
+  overflow: hidden;
+}
+
+@media only screen and (min-width: 601px) {
+  .wrap {
+      width:85%;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      max-width: 40rem; 
+      border-radius: 0.25em; 
+      
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  .wrap {
+      width:70%
+  }
+}

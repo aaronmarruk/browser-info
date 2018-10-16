@@ -1,6 +1,6 @@
 <template lang="pug">
   div
-    .plex-sans.container.shadow(style="max-width: 40rem; margin-top: 1rem; margin-bottom: 1rem; border-radius: 0.25em; overflow: hidden;")
+    .plex-sans.wrap.shadow(style="border-radius: 0.25em; overflow: hidden;")
       .light-blue.lighten-4
         .row(style="margin-bottom: 0")
           .col.s12
@@ -32,7 +32,7 @@
               h5 Data we collect
               p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
     
-    .container(style="max-width: 40rem;")
+    .wrap(style="max-width: 40rem;")
       .row(style="margin-top: 0")
         .col.s12
           .col.s12.grey-text.text-lighten-1
@@ -82,9 +82,9 @@
 </script>
 
 <style lang="scss">
-  .shadow {
-    box-shadow: rgba(0,0,0,0.2) 0 0 0 1px, rgba(0,0,0,0.45) 0 3px 10px;
-  }
+  // .shadow {
+  //   box-shadow: rgba(0,0,0,0.2) 0 0 0 1px, rgba(0,0,0,0.45) 0 3px 10px;
+  // }
   .plex-mono {font-family: 'IBM Plex Mono', monospace;}
   .plex-sans {font-family: 'IBM Plex Sans', sans-serif;}
   .lato {font-family: 'Lato', sans-serif;}
